@@ -70,6 +70,7 @@ p {
   font-family: "Playfair Display";
   height: 1.5rem;
   width: 6rem;
+  cursor: pointer;
 }
 
 #subscribe {
@@ -89,6 +90,9 @@ p {
   position: sticky;
   top: auto;
   /* margin-bottom: 15rem; */
+}
+.gideon-nav {
+  display: none;
 }
 .logo {
   height: 18.75rem;
@@ -123,6 +127,7 @@ p {
   font-family: "Playfair Display";
   color: #06273a;
   background-color: #fcf6ef;
+  cursor: pointer;
 }
 /* Books */
 
@@ -188,4 +193,173 @@ p {
   margin-top: 2rem;
   width: 100%;
   text-align: left;
+}
+
+@media only screen and (max-width: 995px) {
+  .newsletter {
+    height: 6rem;
+    padding-bottom: 1rem;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 55rem;
+    background-size: 110rem;
+    padding-bottom: 5rem;
+    ;
+    
+  }
+/* .header-class {
+  display: flex;
+  align-items: center;
+} */
+  .logo {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+  }
+
+  .nav {
+    height: 8rem;
+
+  }
+
+  .gideon-nav {
+    display: none;
+  }
+
+  .books {
+    width: 33rem;
+    height: 88rem;
+  }
+
+  .covers {
+    height: 80rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 0;
+  }
+
+  .tbr {
+    height: 24rem;
+    width: 16rem;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    height: 55rem;
+    width: 33rem;
+  }
+
+  .author {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bio {
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .newsletter {
+    display: none;
+  }
+  .nav {
+    display: none;
+  }
+.logo {
+  height: 6rem;
+  width: 10rem;
+}
+  .gideon-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    width: 100%;
+    background-color: #06273a;
+    font-size: 
+  }
+
+  #menu {
+    margin-right: 3rem;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: start;
+    height: 55rem;
+    width: 100%;
+    background-size: 120rem;
+    /* padding-bottom: 10rem; */
+    padding-top: 4rem;
+  }
+
+  .header-class {
+    height: 20rem;
+    width: 20rem;
+    }
+
+  .blurb-books {
+height: 20rem;
+width: 20rem;
+
+  }
+
+  .logo {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+  }
+
+  .nav {
+    height: 8rem;
+
+  }
+
+  .books {
+    width: 25rem;
+    height: 88rem;
+  }
+
+  .covers {
+    height: 80rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 0;
+  }
+
+  .tbr {
+    height: 22rem;
+    width: 14rem;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    height: 56rem;
+    width: 25rem;
+  }
+
+  .bio {
+    margin-top: 2rem;
+    width: 20rem;
+  }
+
 }
