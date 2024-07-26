@@ -1,0 +1,17 @@
+{
+  "name": "javascript-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "message": "node messageGenerator.js",
+    "lockedTomb": "node lockedTombQuote.js",
+    "sleepHours": "node sleepHours.js",
+    "emoticon": "node emojiProject.js",
+    "whaleSpeech": "node whaleSpeech.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
